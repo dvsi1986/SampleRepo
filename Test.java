@@ -1,5 +1,3 @@
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 //Hello welcome!
 
@@ -7,7 +5,11 @@ import java.time.format.DateTimeFormatter;
 
 public class Test {
 
+<<<<<<< HEAD
 	public static void   main(String[] args) {
+=======
+	public static void main(String[] args  ) {
+>>>>>>> b2
 		String now = "2016-11-09 10:30:00";
 
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
